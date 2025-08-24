@@ -20,7 +20,7 @@
 
 <details>
 <summary>Answer</summary>
-# Conversación: Patrick Stewart y Christopher Walken
+<h3><strong>Conversación: Patrick Stewart y Christopher Walken</strong></h3>
 
 **Patrick Stewart:** Hola Christopher, ¿has visto el último número de *Film Monthly*?
 
