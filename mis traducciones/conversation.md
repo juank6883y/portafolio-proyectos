@@ -18,6 +18,8 @@
 
 **Patrick Stewart:** Sounds perfect!
 
+<details>
+<summary>Answer</summary>
 # Conversación: Patrick Stewart y Christopher Walken
 
 **Patrick Stewart:** Hola Christopher, ¿has visto el último número de *Film Monthly*?
@@ -37,3 +39,5 @@
 **Christopher Walken:** Bueno, ¿tomamos un café y comentamos nuestros artículos favoritos?
 
 **Patrick Stewart:** ¡Suena perfecto!
+</details>
+
