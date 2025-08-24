@@ -28,4 +28,6 @@ Here you will find a set of exercises designed to practice translation, grammar,
 ---
 
 ## 📂 Folder Structure
+---
 
+Feel free to fork this repository and practice these exercises on your own!
