@@ -11,11 +11,15 @@ En sus últimos años, sufrió una prolongada batalla contra la enfermedad de Pa
 
 Inglés
 
-# ** Biography of Ozzy Osbourne **
+<details>
+<summary>Answer</summary>
+**English: # ** Biography of Ozzy Osbourne **
 
 John Michael "Ozzy" Osbourne was born on December 3, 1948, in Birmingham, England. He rose to fame as the lead singer of the influential heavy metal band Black Sabbath in the 1970s. Over time, he also rose to prominence as a solo artist, starring in hits like Crazy Train and No More Tears, and becoming a cultural icon and television personality thanks to the reality show The Osbournes.
 
 In his later years, he suffered a prolonged battle with Parkinson's disease, officially diagnosed in 2003. Despite his health problems, he returned to the stage in 2025 to perform his farewell concert with Black Sabbath, titled Back to the Beginning, on July 5 in Birmingham. Less than three weeks later, on July 22, 2025, Ozzy Osbourne passed away at the age of 76, surrounded by his family. The official cause of death was an acute myocardial infarction (heart attack), with complications from coronary artery disease and Parkinson's disease with autonomic dysfunction, according to the death certificate.
 
 ![Ozzy Osbourne](../imagenes/ozzy-osbourne.jpg)
+</details>
+
 
