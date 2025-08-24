@@ -13,7 +13,7 @@ Inglés
 
 <details>
 <summary>Answer</summary>
-**English: # ** Biography of Ozzy Osbourne **
+** Biography of Ozzy Osbourne **
 
 John Michael "Ozzy" Osbourne was born on December 3, 1948, in Birmingham, England. He rose to fame as the lead singer of the influential heavy metal band Black Sabbath in the 1970s. Over time, he also rose to prominence as a solo artist, starring in hits like Crazy Train and No More Tears, and becoming a cultural icon and television personality thanks to the reality show The Osbournes.
 
