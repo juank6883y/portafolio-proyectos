@@ -20,3 +20,20 @@
 
 # Conversación: Patrick Stewart y Christopher Walken
 
+**Patrick Stewart:** Hola Christopher, ¿has visto el último número de *Film Monthly*?
+
+**Christopher Walken:** Ah, sí, Patrick. Lo leí ayer. Una lectura muy interesante.
+
+**Patrick Stewart:** Me gustó la entrevista con el joven director. Fue muy reveladora.
+
+**Christopher Walken:** Por supuesto. Y esas fotos de los sets de rodaje... ¡impresionantes!
+
+**Patrick Stewart:** Estoy de acuerdo. Es increíble cómo las revistas captan la esencia del cine.
+
+**Christopher Walken:** Cierto. A veces prefiero la versión impresa a la digital. Se siente… real.
+
+**Patrick Stewart:** Sí, sostenerlo en tus manos proporciona una experiencia diferente.
+
+**Christopher Walken:** Bueno, ¿tomamos un café y comentamos nuestros artículos favoritos?
+
+**Patrick Stewart:** ¡Suena perfecto!
