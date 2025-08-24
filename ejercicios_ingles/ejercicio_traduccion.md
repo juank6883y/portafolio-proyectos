@@ -26,3 +26,4 @@ Example:
 - English: I have a dog.  
 - Spanish: Tengo un perro.
 
+[⬅ Back to Exercises Index](README.md)
