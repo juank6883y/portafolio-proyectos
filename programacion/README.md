@@ -10,15 +10,15 @@ Aquí encontrarás una variedad de ejercicios en Python para practicar resoluci�
 
 ## 📄 Exercises List / Lista de Ejercicios
 
-1. **[Exercise 1: Sum of Two Numbers / Ejercicio 1: Suma de Dos Números](ejercicio_suma.md)**  
+1. **[Exercise 1: Sum of Two Numbers / Ejercicio 1: Suma de Dos Números](ejercicio_suma.py)**  
    Write a program that asks the user for two numbers and prints their sum.  
    Escribe un programa que solicite al usuario dos números y muestre su suma.  
 
-2. **[Exercise 2: Fibonacci Sequence / Ejercicio 2: Secuencia de Fibonacci](ejercicio_fibonacci.md)**  
+2. **[Exercise 2: Fibonacci Sequence / Ejercicio 2: Secuencia de Fibonacci](ejercicio_fibonacci.py)**  
    Create a program that prints the first N numbers of the Fibonacci sequence.  
    Crea un programa que muestre los primeros N números de la secuencia de Fibonacci.  
 
-3. **[Exercise 3: Palindrome Checker / Ejercicio 3: Comprobador de Palíndromos](ejercicio_palindromo.md)**  
+3. **[Exercise 3: Palindrome Checker / Ejercicio 3: Comprobador de Palíndromos](ejercicio_palindromo.py)**  
    Write a program that checks if a given word or phrase is a palindrome.  
    Escribe un programa que compruebe si una palabra o frase dada es un palíndromo.  
 
@@ -30,8 +30,8 @@ Aquí encontrarás una variedad de ejercicios en Python para practicar resoluci�
 - Haz clic en los enlaces de los ejercicios para abrirlos.  
 - Follow the instructions provided in each file.  
 - Sigue las instrucciones proporcionadas en cada archivo.  
-- You can implement your solution directly in a `.py` file or write the logic in the Markdown file for demonstration.  
-- Puedes implementar tu solución directamente en un archivo `.py` o escribir la lógica en el archivo Markdown para demostración.  
+- Run the Python scripts to see the solution in action.  
+- Ejecuta los scripts de Python para ver la solución en acción.  
 - You can add your own exercises to expand this section over time.  
 - Puedes añadir tus propios ejercicios para expandir esta sección con el tiempo.
 
