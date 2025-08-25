@@ -40,22 +40,75 @@ Ingrese su nombre: Ana
 Ingrese su ciudad: Madrid
 Hola Ana de Madrid!
 ¿Desea ingresar otro nombre y ciudad? (S/N): N
+Programa finalizado.
 ```
 
 ---
 
 ### 3. [Ejercicio2.cs](./ejercicio2.cs)
-Archivo con la clase `Ejercicio2App`.  
-Implementa un ejercicio relacionado con **estructuras de control (if, else, switch)**.  
-Ejemplo: ingresar un número y determinar si es **par o impar**.
+Clase: **`Ejercicio2App`**  
+Método: **`Ejecutar()`**  
+
+Este ejercicio solicita el **nombre** y la **fecha de nacimiento** de una persona en formato `yyyy-mm-dd`.  
+El sistema calcula la **edad actual** de la persona y la muestra en pantalla.  
+Permite repetir el proceso con diferentes datos hasta que el usuario elija salir con **N**.  
+
+Ejemplo de salida:  
+```
+Ingrese el nombre de la persona: Juan
+Ingrese la fecha de nacimiento (yyyy-mm-dd): 1990-05-12
+Juan tiene 34 años.
+
+¿Desea ingresar otra fecha? (S/N): N
+Programa finalizado.
+```
 
 ---
 
 ### 4. [Ejercicio3.cs](./ejercicio3.cs)
-Archivo con la clase `Ejercicio3App`.  
-Se enfoca en **bucles y repetición**.  
-Ejemplo: mostrar en pantalla los primeros **N números de la serie Fibonacci** o contar del 1 al 10.
+Clase: **`Ejercicio3App`**  
+Método: **`Ejecutar()`**  
 
+Este ejercicio muestra una **lista inicial de profesiones**.  
+El usuario puede optar por **agregar nuevas profesiones**, las cuales se van sumando a la lista.  
+El proceso se repite hasta que se responda **N**.  
+
+Ejemplo de salida:  
+```
+Lista de ocupaciones/profesiones:
+
+Médico
+Ingeniero
+Profesor
+Artista
+Abogado
+Arquitecto
+Carpintero
+Chef
+Programador
+Músico
+
+¿Desea agregar más profesiones? (S/N): S
+Ingrese una nueva profesión: Piloto
+
+Lista de ocupaciones/profesiones:
+
+Médico
+Ingeniero
+Profesor
+Artista
+Abogado
+Arquitecto
+Carpintero
+Chef
+Programador
+Músico
+Piloto
+
+¿Desea agregar más profesiones? (S/N): N
+
+Programa finalizado.
+```
 ---
 
 ## 🛠️ Requisitos
