@@ -34,8 +34,8 @@ Método: **`Ejecutar()`**
 Este ejercicio pide al usuario que ingrese su **nombre** y **ciudad**, luego muestra un saludo personalizado.  
 Después, el programa pregunta si se desea ingresar otro nombre y ciudad, repitiendo el proceso hasta que el usuario responda **N**.  
 
-```
 Ejemplo de salida: 
+```
 Ingrese su nombre: Ana
 Ingrese su ciudad: Madrid
 Hola Ana de Madrid!
