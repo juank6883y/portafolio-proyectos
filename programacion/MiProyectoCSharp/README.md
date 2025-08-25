@@ -59,4 +59,19 @@ Ejemplo: mostrar en pantalla los primeros **N números de la serie Fibonacci** o
    ```bash
    git clone https://github.com/usuario/MiProyectoCSharp.git
    cd MiProyectoCSharp
+   ```
 
+2. Compilar el proyecto:
+   ```bash
+   dotnet build
+   ```
+3. Ejecutar:
+   ```bash
+   dotnet run
+   ```
+📚 Notas
+Cada ejercicio está encapsulado en su propia clase con un método Ejecutar().
+El menú en Program.cs permite acceder a ellos sin tener que cambiar el código manualmente.
+Puedes expandir el proyecto añadiendo nuevos archivos como Ejercicio4.cs, Ejercicio5.cs, etc.
+
+✍️ Autor: Juan[TaskPro]
