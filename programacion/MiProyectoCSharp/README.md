@@ -7,7 +7,7 @@ Cada archivo tiene una funcionalidad específica y se integra con el menú princ
 
 ## 🚀 Archivos del proyecto
 
-### 1. Program.cs(./Program.cs)
+### 1. [Program.cs](./Program.cs)
 Archivo principal que controla la ejecución del programa.  
 Contiene el **menú interactivo** que permite al usuario seleccionar qué ejercicio ejecutar:  
 
