@@ -28,9 +28,17 @@ Seleccione una opción:
 ---
 
 ### 2. [Ejercicio1.cs](./ejercicio1.cs)
-Este archivo contiene la clase `Ejercicio1App` con su método `Ejecutar()`.  
-Su propósito es practicar la **entrada de datos y operaciones básicas** en C#.  
-Ejemplo: pedir al usuario un número y mostrar si es positivo o negativo.
+Clase: **`Ejercicio1App`**  
+Método: **`Ejecutar()`**  
+
+Este ejercicio pide al usuario que ingrese su **nombre** y **ciudad**, luego muestra un saludo personalizado.  
+Después, el programa pregunta si se desea ingresar otro nombre y ciudad, repitiendo el proceso hasta que el usuario responda **N**.  
+
+Ejemplo de salida: 
+Ingrese su nombre: Ana
+Ingrese su ciudad: Madrid
+Hola Ana de Madrid!
+¿Desea ingresar otro nombre y ciudad? (S/N): N
 
 ---
 
