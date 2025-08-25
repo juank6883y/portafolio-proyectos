@@ -69,3 +69,10 @@ Este repositorio contiene varios ejercicios prácticos desarrollados en **C++**,
 ```bash
 g++ calculadora_basica.cpp -o calculadora
 ./calculadora
+
+---
+
+Autor
+
+- Juan (TaskPro)
+- +57 3202646321
