@@ -25,3 +25,38 @@ Seleccione una opción:
 3. Ejecutar Ejercicio 3
 4. Salir
 
+---
+
+### 2. [Ejercicio1.cs](./ejercicio1.cs)
+Este archivo contiene la clase `Ejercicio1App` con su método `Ejecutar()`.  
+Su propósito es practicar la **entrada de datos y operaciones básicas** en C#.  
+Ejemplo: pedir al usuario un número y mostrar si es positivo o negativo.
+
+---
+
+### 3. [Ejercicio2.cs](./ejercicio2.cs)
+Archivo con la clase `Ejercicio2App`.  
+Implementa un ejercicio relacionado con **estructuras de control (if, else, switch)**.  
+Ejemplo: ingresar un número y determinar si es **par o impar**.
+
+---
+
+### 4. [Ejercicio3.cs](./ejercicio3.cs)
+Archivo con la clase `Ejercicio3App`.  
+Se enfoca en **bucles y repetición**.  
+Ejemplo: mostrar en pantalla los primeros **N números de la serie Fibonacci** o contar del 1 al 10.
+
+---
+
+## 🛠️ Requisitos
+- .NET SDK instalado ([descargar aquí](https://dotnet.microsoft.com/en-us/download))  
+- Editor recomendado: **Visual Studio Code** o **Visual Studio Community**
+
+---
+
+## ▶️ Cómo ejecutar el proyecto
+1. Clonar este repositorio:  
+   ```bash
+   git clone https://github.com/usuario/MiProyectoCSharp.git
+   cd MiProyectoCSharp
+
