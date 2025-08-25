@@ -17,3 +17,11 @@ Contiene el **menú interactivo** que permite al usuario seleccionar qué ejerci
 - Salir  
 
 Ejemplo de inicio del programa:  
+
+Seleccione una opción:
+
+1. Ejecutar Ejercicio 1
+2. Ejecutar Ejercicio 2
+3. Ejecutar Ejercicio 3
+4. Salir
+
