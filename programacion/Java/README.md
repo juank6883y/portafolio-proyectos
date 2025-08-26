@@ -6,7 +6,7 @@ Este repositorio contiene varios programas desarrollados en **Java** como parte 
 
 ## 📂 Contenido del repositorio
 
-### [1️⃣ `CalculoIMC.java` 🧍‍♂️🧍‍♀️] (CalculoIMC.java)
+### [1️⃣ `CalculoIMC.java` 🧍‍♂️🧍‍♀️] (./CalculoIMC.java)
 Programa para calcular el **Índice de Masa Corporal (IMC)** de una persona.  
 
 - Solicita: nombre completo, peso (kg) y estatura (m).  
