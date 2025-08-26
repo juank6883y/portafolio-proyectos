@@ -79,4 +79,4 @@ Java/
 └─ MiPrograma.java
 ```
 ✨ Autor
-### Juan – Repositorio de ejercicios prácticos en Java 🖥️
+Juan – Repositorio de ejercicios prácticos en Java 🖥️
