@@ -6,7 +6,7 @@ Este repositorio contiene varios programas desarrollados en **Java** como parte 
 
 ## 📂 Contenido del repositorio
 
-### [1️⃣ CalculoIMC.java 🧍‍♂️🧍‍♀️] (./CalculoIMC.java)
+### 1️⃣ [CalculoIMC.java](./CalculoIMC.java) 🧍‍♂️🧍‍♀️
 Programa para calcular el **Índice de Masa Corporal (IMC)** de una persona.  
 
 - Solicita: nombre completo, peso (kg) y estatura (m).  
@@ -21,7 +21,7 @@ IMC = peso / (estatura * estatura)
 
 ---
 
-### 2️⃣ `Planeta.java` 🌍🪐
+### 2️⃣ [Planeta.java](./Planeta.java) 🌍🪐
 Clase que representa un **planeta del sistema solar**.  
 
 - **Atributos:** nombre, satélites, masa, volumen, diámetro, distancia al Sol, tipo de planeta (GASEOSO, TERRESTRE, ENANO), observable a simple vista.  
@@ -33,7 +33,7 @@ Clase que representa un **planeta del sistema solar**.
 
 ---
 
-### 3️⃣ `Automovil.java` 🚗💨
+### 3️⃣ [Automovil.java](./Automovil.java) 🚗💨
 Clase que representa un **automóvil** con atributos y funcionalidades avanzadas.  
 
 - **Atributos:** marca, modelo, placa, motor, tipo de combustible, tipo de automóvil, puertas, asientos, velocidad máxima, color, velocidad actual, automático y multas.  
@@ -45,7 +45,7 @@ Clase que representa un **automóvil** con atributos y funcionalidades avanzadas
 
 ---
 
-### 4️⃣ `MiPrograma.java` 🖥️
+### 4️⃣ [MiPrograma.java](./MiPrograma.java) 🖥️
 Archivo auxiliar que contiene otros ejercicios prácticos en Java.  
 
 - Incluye **programas de prueba** y ejemplos de ejecución interactiva.  
