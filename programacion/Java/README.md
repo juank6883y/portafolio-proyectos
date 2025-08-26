@@ -59,11 +59,16 @@ Archivo auxiliar que contiene otros ejercicios prácticos en Java.
 2. Compila el archivo `.java`:  
  ```bash
  javac NombreArchivo.java
+```
 3. Ejecuta el programa compilado:
+```bash
 java NombreArchivo
+```
 Ejemplo para el programa de Automóviles:
+```bash
 javac Automovil.java
 java Automovil
+```
 🗂️ Estructura de carpetas recomendada
 Java/
 │
