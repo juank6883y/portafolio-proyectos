@@ -70,11 +70,13 @@ javac Automovil.java
 java Automovil
 ```
 🗂️ Estructura de carpetas recomendada
+```
 Java/
 │
 ├─ CalculoIMC.java
 ├─ Planeta.java
 ├─ Automovil.java
 └─ MiPrograma.java
+```
 ✨ Autor
 Juan – Repositorio de ejercicios prácticos en Java 🖥️
