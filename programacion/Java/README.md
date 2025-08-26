@@ -53,6 +53,21 @@ Archivo auxiliar que contiene otros ejercicios prácticos en Java.
 
 ---
 
+### 5️⃣ [NumeroARomano.java](./NumeroARomano.java) 
+Este proyecto en Java permite **convertir números decimales a números romanos**, sin límite de valor.  
+Soporta tanto la notación clásica (hasta 3999) como una **notación extendida** con paréntesis para representar miles y múltiplos de mil, lo cual hace posible convertir números grandes como 10.000, 100.000 o incluso 1.000.000.
+
+## ⚙️ Funcionamiento
+1. El programa solicita al usuario un número entero positivo.  
+2. Convierte el número a su representación en **números romanos** usando un sistema basado en valores y símbolos predefinidos.  
+   - Ejemplo clásico: `586 → DLXXXVI`  
+   - Ejemplo extendido: `4000 → (IV)` , `8079 → (V)(III)MLXXIX` , `1000000 → (M)`  
+3. El sistema muestra el resultado en consola.  
+4. Pregunta al usuario si desea ingresar otro número (`s` para continuar o `n` para salir).  
+5. Repite el proceso hasta que el usuario decida terminar.
+
+---
+
 ## 🏃‍♂️ Cómo ejecutar los programas
 
 1. Asegúrate de tener **Java JDK** instalado y configurado.  
