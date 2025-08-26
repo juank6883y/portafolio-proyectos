@@ -69,7 +69,7 @@ Ejemplo para el programa de Automóviles:
 javac Automovil.java
 java Automovil
 ```
-🗂️ Estructura de carpetas recomendada
+## 🗂️ Estructura de carpetas recomendada
 ```
 Java/
 │
@@ -79,4 +79,4 @@ Java/
 └─ MiPrograma.java
 ```
 ✨ Autor
-Juan – Repositorio de ejercicios prácticos en Java 🖥️
+### Juan – Repositorio de ejercicios prácticos en Java 🖥️
