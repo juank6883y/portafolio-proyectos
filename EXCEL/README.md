@@ -4,7 +4,7 @@ Este repositorio contiene tres archivos en formato **Excel (.xlsx)** que ejempli
 
 ---
 
-## [1. notas_estudiantes.xlsx](./notas_estudiantes.xlsx)
+## 1. [notas_estudiantes](./notas_estudiantes.csv)
 📘 **Descripción:**  
 Contiene el registro de las calificaciones finales de un grupo de estudiantes en diferentes asignaturas.
 
@@ -19,7 +19,7 @@ Ideal para registrar y analizar el desempeño académico de los estudiantes.
 
 ---
 
-## [2. inventario_tienda.xlsx](./inventario_tienda.xlsx)
+## 2. [inventario_tienda](./inventario_tienda.csv)
 📘 **Descripción:**  
 Representa el inventario básico de una tienda con diferentes productos y categorías.
 
@@ -34,7 +34,7 @@ Permite llevar el control de existencias y precios en un comercio minorista.
 
 ---
 
-## [3. calendario_eventos.xlsx](./calendario_eventos.xlsx)
+## 3. [calendario_eventos](./calendario_eventos.csv)
 📘 **Descripción:**  
 Un pequeño calendario con fechas de eventos importantes y responsables asignados.
 
