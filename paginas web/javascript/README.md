@@ -10,7 +10,7 @@ Este repositorio contiene una serie de ejercicios prácticos en desarrollo web, 
 - Página en **JavaScript** que captura información de un país ingresado por el usuario.
 - Muestra detalles como nombre, población o cualquier dato definido en el script.
 
-### 2. [numejo_js.html](./numejo_js.html)  
+### 2. [numejo_js.html](./numero_js.html)  
 - Página en **JavaScript** que permite ingresar un número.
 - El sistema determina y muestra:
   - Si es par masculino.
