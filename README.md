@@ -40,7 +40,7 @@ git status
 ```bash
 git add .
 ```
-(. agrega todos los cambios; también puedes especificar un archivo concreto: git add archivo.txt)
+(. agrega todos los cambios; también puedes especificar un archivo concreto: git add archivo.txt)  
 3. Guardar los cambios con un mensaje descriptivo:
 ```bash
 git commit -m "Agregué nuevos archivos y carpetas"
