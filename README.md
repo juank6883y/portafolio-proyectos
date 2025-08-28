@@ -70,7 +70,7 @@ git pull origin main
 - No necesitas instalar nada en tu PC.
 - Puedes crear, editar o borrar archivos directo desde el navegador.
 - Ideal para cambios pequeños o rápidos (ejemplo: corregir un texto, actualizar un README).
-- Fácil para principiantes porque solo usas la interfaz web.
+- Fácil para principiantes porque solo usas la interfaz web.   
 ⚠️ Desventajas
 - Limitado: editar archivos grandes o muchos archivos es incómodo.
 - No puedes ejecutar ni probar tu proyecto en tu máquina antes de subirlo.
@@ -85,7 +85,7 @@ git pull origin main
 - Git te permite hacer commits locales (aunque no tengas internet).
 - Una vez que estés listo, con git push subes tus cambios y se reflejan en GitHub.
 - Puedes trabajar en ramas (branches) y probar ideas sin dañar la versión principal.
-- Es perfecto para colaborar: puedes descargar los cambios de otros con git pull.   
+- Es perfecto para colaborar: puedes descargar los cambios de otros con git pull.      
 ⚠️ Desventajas
 - Necesitas instalar Git y aprender algunos comandos.
 - Al inicio puede parecer más complejo.  
