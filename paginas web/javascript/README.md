@@ -18,7 +18,7 @@ Este repositorio contiene una serie de ejercicios prácticos en desarrollo web, 
   - Otros dos casos adicionales según la lógica definida en el programa.
 
 ### 3. [Carpeta paises_api](./paises_api/)   
-- [Archivo principal](./paises_api/datos_paises.html)
+- [Archivo principal](./paises_api/index.html)
 - Implementación alternativa de los países.
 - Consulta datos completos desde una **API externa** y los muestra en la página.
 
