@@ -64,3 +64,36 @@ git pull origin main
 - Confirmar cambios → git commit -m "mensaje"
 - Subir cambios a GitHub → git push origin main
 - Actualizar repo local → git pull origin main
+
+## 5. rabajar solo desde GitHub Web   
+✅ Ventajas
+- No necesitas instalar nada en tu PC.
+- Puedes crear, editar o borrar archivos directo desde el navegador.
+- Ideal para cambios pequeños o rápidos (ejemplo: corregir un texto, actualizar un README).
+- Fácil para principiantes porque solo usas la interfaz web.   
+⚠️ Desventajas
+- Limitado: editar archivos grandes o muchos archivos es incómodo.
+- No puedes ejecutar ni probar tu proyecto en tu máquina antes de subirlo.
+- No aprovechas la potencia de Git (historial local, ramas, commits detallados, etc.).
+- Si trabajas sin internet, no puedes hacer nada.
+
+## 6. Trabajar con el repo clonado en tu PC   
+✅ Ventajas
+- Tienes todo el proyecto en local (incluso el historial completo de cambios).
+- Puedes probar, ejecutar y depurar el proyecto en tu máquina.
+- Puedes mover, crear y organizar carpetas/archivos fácilmente.
+- Git te permite hacer commits locales (aunque no tengas internet).
+- Una vez que estés listo, con git push subes tus cambios y se reflejan en GitHub.
+- Puedes trabajar en ramas (branches) y probar ideas sin dañar la versión principal.
+- Es perfecto para colaborar: puedes descargar los cambios de otros con git pull.   
+⚠️ Desventajas
+- Necesitas instalar Git y aprender algunos comandos.
+- Al inicio puede parecer más complejo.  
+---  
+💡 Conclusión   
+- Si quieres cambios rápidos y pequeños, GitHub Web funciona.
+- Si quieres trabajar en serio en tus proyectos, probar código, mover archivos, colaborar o mantener un buen historial, lo mejor es clonar el repo en tu PC.   
+----   
+👉 En pocas palabras:
+GitHub Web es como editar un archivo en Google Drive.
+Git clonado en tu PC es como tener tu propio taller de trabajo, con herramientas, seguridad y libertad total. 🚀
