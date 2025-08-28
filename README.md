@@ -51,7 +51,7 @@ git push origin main
 ```
 (⚠️ Si tu rama principal se llama master en lugar de main, usa git push origin master)
 
-## 4. Actualizar tu repo local (pull)
+## 🔹 4. Actualizar tu repo local (pull)
 
 Si realizaste cambios directamente en GitHub (por ejemplo, editaste un archivo online), debes sincronizar tu repositorio local con el remoto:
 ```bash
@@ -65,7 +65,7 @@ git pull origin main
 - Subir cambios a GitHub → git push origin main
 - Actualizar repo local → git pull origin main
 
-## 5. Trabajar solo desde GitHub Web   
+## 🔹 5. Trabajar solo desde GitHub Web   
 ### ✅ Ventajas
 - No necesitas instalar nada en tu PC.
 - Puedes crear, editar o borrar archivos directo desde el navegador.
@@ -77,7 +77,7 @@ git pull origin main
 - No aprovechas la potencia de Git (historial local, ramas, commits detallados, etc.).
 - Si trabajas sin internet, no puedes hacer nada.
 
-## 6. Trabajar con el repo clonado en tu PC   
+## 🔹 6. Trabajar con el repo clonado en tu PC   
 ### ✅ Ventajas
 - Tienes todo el proyecto en local (incluso el historial completo de cambios).
 - Puedes probar, ejecutar y depurar el proyecto en tu máquina.
