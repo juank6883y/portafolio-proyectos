@@ -26,7 +26,7 @@ Ejercicio enfocado en el uso de condicionales (if/else) en JavaScript.
 - Población.  
 - Idioma(s).  
 - Moneda.   
-Ejercicio enfocado en el uso de fetch() y consumo de APIs REST con JavaScript.  
+Ejercicio enfocado en el uso de fetch() y consumo de APIs REST con JavaScript.   
 🔹 Carpeta focos_interactivos/  
 - Contiene archivos que simulan focos interactivos.  
 - Funcionalidades:  
