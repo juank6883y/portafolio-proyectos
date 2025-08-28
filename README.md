@@ -65,12 +65,12 @@ git pull origin main
 - Subir cambios a GitHub → git push origin main
 - Actualizar repo local → git pull origin main
 
-## 5. rabajar solo desde GitHub Web   
+## 5. Trabajar solo desde GitHub Web   
 ✅ Ventajas
 - No necesitas instalar nada en tu PC.
 - Puedes crear, editar o borrar archivos directo desde el navegador.
 - Ideal para cambios pequeños o rápidos (ejemplo: corregir un texto, actualizar un README).
-- Fácil para principiantes porque solo usas la interfaz web.   
+- Fácil para principiantes porque solo usas la interfaz web.
 ⚠️ Desventajas
 - Limitado: editar archivos grandes o muchos archivos es incómodo.
 - No puedes ejecutar ni probar tu proyecto en tu máquina antes de subirlo.
