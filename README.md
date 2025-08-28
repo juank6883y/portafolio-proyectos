@@ -17,7 +17,7 @@ git clone https://github.com/usuario/nombre-repo.git
 ```
 
 ✅ Esto creará una carpeta con el nombre del repositorio en tu PC.
----
+
 ## 🔹 2. Mover o agregar archivos a tu repositorio clonado
 
 Una vez clonado, puedes mover o copiar archivos/carpetas desde cualquier ubicación de tu PC al repositorio clonado usando el Explorador de archivos o comandos de terminal.
