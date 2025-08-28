@@ -1,4 +1,4 @@
-🌐 Ejercicios de Páginas Web con JavaScript
+## 🌐 Ejercicios de Páginas Web con JavaScript
 
 Este repositorio contiene varios ejercicios prácticos desarrollados en HTML + JavaScript, enfocados en la captura de datos, interacción con el usuario y efectos visuales.
 
@@ -8,7 +8,7 @@ Este repositorio contiene varios ejercicios prácticos desarrollados en HTML + J
 - Los datos son ingresados manualmente en formularios y luego se muestran en pantalla.
 - Ejercicio enfocado en el manejo de inputs y salida dinámica en HTML con JS.
 
-2. [numero_js](/.numejo_js.html)
+2. [numero_js](/.numejo_js.html)  
 Página donde el usuario ingresa cualquier número.
 El sistema devuelve:
 ✅ Si el número es par masculino.
