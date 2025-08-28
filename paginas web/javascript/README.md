@@ -9,45 +9,31 @@ Este repositorio contiene varios ejercicios prácticos desarrollados en HTML + J
 - Ejercicio enfocado en el manejo de inputs y salida dinámica en HTML con JS.
 
 2. [numero_js](/.numejo_js.html)  
-Página donde el usuario ingresa cualquier número.
-El sistema devuelve:
-✅ Si el número es par masculino.
-✅ Si el número es par femenino.
-✅ Si es impar masculino.
-✅ Si es impar femenino.
-Ejercicio enfocado en el uso de condicionales (if/else) en JavaScript.
+Página donde el usuario ingresa cualquier número.  
+El sistema devuelve:  
+✅ Si el número es par masculino.  
+✅ Si el número es par femenino.  
+✅ Si es impar masculino.  
+✅ Si es impar femenino.  
+Ejercicio enfocado en el uso de condicionales (if/else) en JavaScript.  
 
-📂 Subcarpetas
-🔹 Carpeta paises_api/
+📂 Subcarpetas  
+🔹 Carpeta paises_api/    
+- Contiene la Opción 2 del ejercicio de países.    
+- A diferencia de datos_paises.html, esta versión consume datos desde una API de países, mostrando información más completa:    
+- Nombre oficial.  
+- Capital.  
+- Población.  
+- Idioma(s).  
+- Moneda.   
+Ejercicio enfocado en el uso de fetch() y consumo de APIs REST con JavaScript.  
+🔹 Carpeta focos_interactivos/  
+- Contiene archivos que simulan focos interactivos.  
+- Funcionalidades:  
+- Encender y apagar luces con efecto azul brillante.  
+- Mostrar frases en estilo verde neón.  
+Ejercicio enfocado en eventos de clic, manipulación del DOM y CSS dinámico desde JavaScript.   
 
-Contiene la Opción 2 del ejercicio de países.
+🚀 Cómo ejecutar los ejercicios   
 
-A diferencia de datos_paises.html, esta versión consume datos desde una API de países, mostrando información más completa:
-
-Nombre oficial.
-
-Capital.
-
-Población.
-
-Idioma(s).
-
-Moneda.
-
-Ejercicio enfocado en el uso de fetch() y consumo de APIs REST con JavaScript.
-
-🔹 Carpeta focos_interactivos/
-
-Contiene archivos que simulan focos interactivos.
-
-Funcionalidades:
-
-Encender y apagar luces con efecto azul brillante.
-
-Mostrar frases en estilo verde neón.
-
-Ejercicio enfocado en eventos de clic, manipulación del DOM y CSS dinámico desde JavaScript.
-
-🚀 Cómo ejecutar los ejercicios
-
-Clona este repositorio en tu PC:
+Clona este repositorio en tu PC:  
