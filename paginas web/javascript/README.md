@@ -6,11 +6,11 @@ Este repositorio contiene una serie de ejercicios prácticos en desarrollo web, 
 
 ## 📁 Estructura del Repositorio
 
-### 1. [datos_paises.html](./datos_paises.html)  
+### 1. [datos_paises](./datos_paises.html)  
 - Página en **JavaScript** que captura información de un país ingresado por el usuario.
 - Muestra detalles como nombre, población o cualquier dato definido en el script.
 
-### 2. [numejo_js.html](./numero_js.html)  
+### 2. [numero_js](./numero_js.html)  
 - Página en **JavaScript** que permite ingresar un número.
 - El sistema determina y muestra:
   - Si es par masculino.
