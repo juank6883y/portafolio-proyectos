@@ -17,11 +17,13 @@ Este repositorio contiene una serie de ejercicios prácticos en desarrollo web, 
   - Si es par femenino.
   - Otros dos casos adicionales según la lógica definida en el programa.
 
-### 3. [Carpeta paises_api](./paises_api/) - [Archivo principal](./paises_api/index.html)
+### 3. [Carpeta paises_api](./paises_api/)   
+- [Archivo principal](./paises_api/index.html)
 - Implementación alternativa de los países.
 - Consulta datos completos desde una **API externa** y los muestra en la página.
 
-### 4. [Carpeta focos_interactivos](./focos_interactivos/) - [Focos con luz azul y frases en verde neón](./focos_interactivos/focos.html)
+### 4. [Carpeta focos_interactivos](./focos_interactivos/)  
+- [Focos con luz azul y frases en verde neón](./focos_interactivos/focos.html)
 - Página interactiva con focos de luz **azul**.
 - Incluye frases con estilo en **verde neón**.
 
