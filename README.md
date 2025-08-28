@@ -14,6 +14,6 @@ Este documento explica cómo clonar un repositorio desde GitHub, cómo agregar/m
 
 ```bash
 git clone https://github.com/usuario/nombre-repo.git
-'''
+---
 
 ✅ Esto creará una carpeta con el nombre del repositorio en tu PC.
