@@ -78,12 +78,22 @@ Este archivo permite:
 
 ## 🚀 Ejecución del proyecto
 
+### Opción 1: Usando servidor local (XAMPP, Laragon, WAMP, etc.)
 1. Coloca todos los archivos en el servidor local (ej. `htdocs` de XAMPP o `www` de Laragon).  
 2. Inicia el servidor Apache.  
 3. Abre en el navegador:  
    - `http://localhost/index.php` → Gestión de empleados.  
    - `http://localhost/recetas/index.php` → Recetario.  
-   - `http://localhost/pedido_pizzas.php` → Sistema de pedidos de pizza.  
+   - `http://localhost/pedido_pizzas.php` → Sistema de pedidos de pizza.
+
+### Opción 2: Usando **Visual Studio Code (VSCode)**
+1. Abre la carpeta del proyecto en **VSCode**.  
+2. Instala las siguientes extensiones recomendadas:  
+   - **PHP Server** (para ejecutar archivos PHP en localhost).  
+   - **PHP Intelephense** (para autocompletado y soporte avanzado de PHP).  
+   - **Live Server** (opcional, para pruebas rápidas en HTML/CSS dentro del recetario).  
+3. Haz clic derecho sobre un archivo PHP y selecciona **"PHP Server: Serve Project"**.  
+4. El navegador abrirá la ruta con la ejecución del archivo.  
 
 ---
 
