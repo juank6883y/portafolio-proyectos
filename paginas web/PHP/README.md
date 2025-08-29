@@ -55,10 +55,10 @@ Contiene un recetario con dos categorías:
 - 🟠 **Recetas dulces/postres** (color naranja)  
 
 #### Archivos:
-- [recetario](./index.php) → Página principal del recetario.  
-- [detalle](./receta.php) → Muestra el detalle de cada receta.  
-- [estilo paleta de colores](./css/) → Archivos de estilos (incluye la paleta de colores).  
-- [imagenes](./img/) → Imágenes de apoyo para las recetas.  
+- [recetario](./recetas/index.php) → Página principal del recetario.  
+- [detalle](./recetas/receta.php) → Muestra el detalle de cada receta.  
+- [estilo paleta de colores](./recetas/css/) → Archivos de estilos (incluye la paleta de colores).  
+- [imagenes](./recetas/img/) → Imágenes de apoyo para las recetas.  
 
 Se incluyen **8 recetas en total** (5 saladas y 3 dulces).  
 
