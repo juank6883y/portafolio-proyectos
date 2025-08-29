@@ -31,7 +31,7 @@ Este proyecto contiene tres mini-aplicaciones en PHP:
 
 ## ⚙️ Archivos principales
 
-### 1. **index.php** [(Gestión de empleados)] (./index.php)
+### 1. [(Gestión de empleados)] (./index.php)
 
 Este archivo solicita al usuario:  
 - Nombre del empleado  
