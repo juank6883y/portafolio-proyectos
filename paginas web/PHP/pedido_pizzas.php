@@ -49,9 +49,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         body {
             background-color: #4B0082;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
             color: white;
             font-family: Arial, sans-serif;
@@ -61,6 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             padding: 20px;
             border-radius: 10px;
             text-align: center;
+            margin-bottom: 30px;
         }
         label, input {
             display: block;
@@ -79,6 +81,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         .confirmar { background-color: limegreen; color: white; }
         .resetear { background-color: orange; color: white; }
         .eliminar { background-color: red; color: white; }
+
+        .historial {
+            background-color: rgba(255,255,255,0.15);
+            padding: 15px;
+            border-radius: 10px;
+            width: 400px;
+            max-height: 300px;
+            overflow-y: auto;
+            white-space: pre-wrap; /* respeta saltos de línea */
+        }
     </style>
 </head>
 <body>
@@ -101,5 +113,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <input type="submit" name="eliminar" value="Eliminar archivo" class="eliminar" formnovalidate>
         </div>
     </form>
+
+    <div class="historial">
+        <h3>📋 Historial de pedidos:</h3>
+        <?php
+        if (file_exists("pedidos.txt")) {
+            $contenido = file_get_contents("pedidos.txt");
+            if (trim($contenido) === "") {
+                echo "<p>No hay pedidos registrados.</p>";
+            } else {
+                echo nl2br(htmlspecialchars($contenido));
+            }
+        } else {
+            echo "<p>No hay pedidos registrados.</p>";
+        }
+        ?>
+    </div>
 </body>
 </html>
