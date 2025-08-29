@@ -95,4 +95,4 @@ Este archivo permite:
 
 ---
 
-✍️ **Autor:** Proyecto creado con fines educativos.  
+✍️ **Autor: Juan - TaskPro** Proyecto creado con fines educativos.  
