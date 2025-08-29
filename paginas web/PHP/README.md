@@ -47,7 +47,7 @@ Con esta información, se procesa el **salario bruto**, se aplica un **descuento
 
 ---
 
-### 2. **Carpeta `recetas/`**
+### 2. [Carpeta recetas/](./recetas/)
 
 Contiene un recetario con dos categorías:  
 
@@ -55,16 +55,16 @@ Contiene un recetario con dos categorías:
 - 🟠 **Recetas dulces/postres** (color naranja)  
 
 #### Archivos:
-- **index.php** → Página principal del recetario.  
-- **receta.php** → Muestra el detalle de cada receta.  
-- **css/** → Archivos de estilos (incluye la paleta de colores).  
-- **img/** → Imágenes de apoyo para las recetas.  
+- (./index.php) → Página principal del recetario.  
+- (./receta.php) → Muestra el detalle de cada receta.  
+- (./css/) → Archivos de estilos (incluye la paleta de colores).  
+- (./img/) → Imágenes de apoyo para las recetas.  
 
-Se incluyen **8 recetas en total** (4 saladas y 4 dulces).  
+Se incluyen **8 recetas en total** (5 saladas y 3 dulces).  
 
 ---
 
-### 3. **pedido_pizzas.php**
+### 3. [pedido pizzas](./pedido_pizzas.php)
 
 Este archivo permite:  
 - Solicitar nombre y dirección del cliente.  
