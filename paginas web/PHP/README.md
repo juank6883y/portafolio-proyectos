@@ -47,7 +47,7 @@ Con esta información, se procesa el **salario bruto**, se aplica un **descuento
 
 ---
 
-### 2. [Carpeta recetas/](./recetas/)
+### 2. [Carpeta recetas](./recetas/)
 
 Contiene un recetario con dos categorías:  
 
