@@ -22,8 +22,8 @@ Aquí encontrarás una variedad de ejercicios en Python para practicar resoluci�
    Write a program that checks if a given word or phrase is a palindrome.  
    Escribe un programa que compruebe si una palabra o frase dada es un palíndromo.
 
-4. **[Exercise 4: Primo numbers system / Ejercicio 4: Sistema de números primos](sistema_primos.py)**  
-   This system is an interactive generator of cousin -based numerical sequences, where you can:
+4. **[Exercise 4: Primo numbers system / Ejercicio 4: Sistema de números primos](sistema_primos.py)**   
+This system is an interactive generator of cousin -based numerical sequences, where you can:
 
 - Explore cousin ranges.
 - Create valid bases and prefixes.
