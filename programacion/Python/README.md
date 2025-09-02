@@ -27,7 +27,7 @@ Aquí encontrarás una variedad de ejercicios en Python para practicar resoluci�
    - Explore cousin ranges. 
    - Create valid bases and prefixes. 
    - Generate mathematical sequences. 
-   - Save/Delete results in files.  
+   - Save/Delete results in files.   
    Este sistema es un generador interactivo de secuencias numéricas basadas en primos, donde puedes:
    - Explorar rangos de primos.
    - Crear bases y prefijos válidos.
