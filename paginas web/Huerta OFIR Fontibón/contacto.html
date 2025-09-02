@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Huerta Ofir - Fontibón</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+        <h1>Huerta Ofir</h1>
+        <p>Fontibón - Bogotá</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html#nosotros">Nosotros</a></li>
+            <li><a href="plantas.html">Nuestras Plantas</a></li> <!-- Nuevo enlace -->
+            <li><a href="ubicacion.html">Ubicación</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="contacto">
+        <h2 style="color: #4CAF50;">Contacto</h2>
+        <p>📞 Teléfono: +57 300 000 0000</p>
+        <p>✉️ Correo: huertaofir@email.com</p>
+    </section>
+
+    <h2 class="titulo-formulario">Formulario</h2>
+    <form action="procesar_formulario.php" method="POST">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="correo">Correo:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer>
+        <p>&copy; 2025 Huerta Ofir - Fontibón</p>
+    </footer>
+</body>
+</html>
