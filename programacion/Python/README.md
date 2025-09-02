@@ -23,16 +23,19 @@ Aquí encontrarás una variedad de ejercicios en Python para practicar resoluci�
    Escribe un programa que compruebe si una palabra o frase dada es un palíndromo.
 
 4. **[Exercise 4: Primo numbers system / Ejercicio 4: Sistema de números primos](sistema_primos.py)**  
-   This system is an interactive generator of cousin -based numerical sequences, where you can: 
-   - Explore cousin ranges. 
-   - Create valid bases and prefixes. 
-   - Generate mathematical sequences. 
-   - Save/Delete results in files.   
-   Este sistema es un generador interactivo de secuencias numéricas basadas en primos, donde puedes:
-   - Explorar rangos de primos.
-   - Crear bases y prefijos válidos.
-   - Generar secuencias matemáticas.
-   - Guardar/eliminar resultados en archivos.
+   This system is an interactive generator of cousin -based numerical sequences, where you can:
+
+- Explore cousin ranges.
+- Create valid bases and prefixes.
+- Generate mathematical sequences.
+- Save/Delete results in files.
+
+Este sistema es un generador interactivo de secuencias numéricas basadas en primos, donde puedes:
+
+- Explorar rangos de primos.
+- Crear bases y prefijos válidos.
+- Generar secuencias matemáticas.
+- Guardar/eliminar resultados en archivos.
 
 ---
 
