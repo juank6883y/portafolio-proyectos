@@ -20,7 +20,11 @@ Aquí encontrarás una variedad de ejercicios en Python para practicar resoluci�
 
 3. **[Exercise 3: Palindrome Checker / Ejercicio 3: Comprobador de Palíndromos](ejercicio_palindromo.py)**  
    Write a program that checks if a given word or phrase is a palindrome.  
-   Escribe un programa que compruebe si una palabra o frase dada es un palíndromo.  
+   Escribe un programa que compruebe si una palabra o frase dada es un palíndromo.
+
+4. **[Exercise 4: Primo numbers system / Ejercicio 4: Sistema de números primos](ejercicio_palindromo.py)**  
+   Write a program that checks if a given word or phrase is a palindrome.  
+   Escribe un programa que compruebe si una palabra o frase dada es un palíndromo.
 
 ---
 
@@ -38,12 +42,16 @@ Aquí encontrarás una variedad de ejercicios en Python para practicar resoluci�
 ---
 
 ## 📂 Folder Structure / Estructura de la Carpeta
+```
 programacion/
 │
 ├─ README.md
-├─ ejercicio_suma.md
-├─ ejercicio_fibonacci.md
-└─ ejercicio_palindromo.md
+├─ ejercicio_suma.py
+├─ ejercicio_fibonacci.py
+├─ sistema_primos.py
+└─ ejercicio_palindromo.py
+
+```
 ---
 
 Feel free to fork this repository and practice these exercises on your own!  
