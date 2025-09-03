@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Iglesia / Comunidad Cristiana - Bienvenidos</title>
+
+  <!-- Favicon: reemplaza "mi_icono.png" por el nombre de tu archivo -->
+  <link rel="icon" href="cruz.png" type="image/png">
+
+  <style>
+    :root{
+      --bg-url: url('https://images.unsplash.com/photo-1548625149-fc4a29cf7092?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGlnbGVzaWF8ZW58MHx8MHx8fDA%3D');
+      --card: rgba(255,255,255,0.92);
+      --muted: #374151;
+      --accent: #0b6b3a;
+      --accent-2: #055a2b;
+      --radius: 12px;
+      --shadow: 0 10px 30px rgba(2,6,23,.18);
+      --maxwidth: 1100px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:linear-gradient(rgba(0,0,0,.28), rgba(0,0,0,.36)),var(--bg-url) center/cover fixed no-repeat;color:#0f1724}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:var(--maxwidth);margin:36px auto;padding:24px}
+    header{display:flex;align-items:center;gap:18px;background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}
+    .logo{
+      width:68px;height:68px;border-radius:12px;background:linear-gradient(135deg,#ffffff,#f0fdf4);display:grid;place-items:center;font-weight:800;color:var(--accent);
+      box-shadow:0 6px 18px rgba(6,95,70,.08);
+      border:2px solid rgba(5,90,43,.06)
+    }
+    header h1{margin:0;font-size:20px}
+    header p{margin:0;color:var(--muted);font-size:13px}
+
+    nav{display:flex;gap:12px;margin-top:12px;flex-wrap:wrap}
+    nav a.btn{
+      background:transparent;padding:8px 12px;border-radius:999px;border:1px solid rgba(11,107,58,.06);font-weight:600;color:var(--accent)
+    }
+    nav a.btn:focus{outline:3px solid rgba(11,107,58,.12)}
+
+    main{margin-top:18px;display:grid;grid-template-columns:1fr 320px;gap:18px}
+    @media (max-width:980px){ main{grid-template-columns:1fr} }
+
+    /* Card estilo */
+    .card{background:var(--card);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow);overflow:hidden}
+    .hero{display:flex;gap:18px;align-items:center}
+    .hero-text h2{margin:0;font-size:24px}
+    .hero-text p{margin:6px 0 0;color:var(--muted)}
+
+    /* Secciones de contenido */
+    section h3{margin:0 0 10px;font-size:18px;color:var(--accent)}
+    .versiculo{font-style:italic;background:linear-gradient(90deg, rgba(11,107,58,.06), rgba(5,90,43,.03));padding:12px;border-radius:10px;color:#064e30}
+
+    .sermones-list{display:grid;gap:10px}
+    .sermon{display:flex;gap:12px;align-items:center;border-radius:10px;padding:10px;background:rgba(6,95,70,.02)}
+    .sermon .meta{font-size:13px;color:var(--muted)}
+
+    /* Formulario Peticiones */
+    form{display:grid;gap:8px}
+    input[type="text"], input[type="email"], textarea{
+      width:100%;padding:10px;border:1px solid #e6e6e6;border-radius:8px;font-size:14px
+    }
+    textarea{min-height:100px;resize:vertical}
+    .btn-primary{
+      display:inline-block;background:var(--accent);color:white;padding:10px 14px;border-radius:10px;border:none;font-weight:700;cursor:pointer
+    }
+    .note{font-size:13px;color:var(--muted)}
+
+    /* Sidebar */
+    aside .widget{margin-bottom:12px}
+    .socials{display:flex;gap:8px}
+
+    footer{margin-top:18px;text-align:center;color:#0b3b2c;font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <!-- HEADER -->
+    <header>
+      <div class="logo" aria-hidden="true">✝️</div>
+      <div>
+        <h1>Iglesia Comunidad Vida y Esperanza</h1>
+        <p>Bienvenidos — Un lugar para crecer en fe, servicio y comunidad</p>
+        <nav aria-label="Navegación principal" style="margin-top:10px">
+          <a class="btn" href="#inicio">Inicio</a>
+          <a class="btn" href="#sobre">Sobre</a>
+          <a class="btn" href="#sermones">Sermones</a>
+          <a class="btn" href="#pedir-oracion">Peticiones</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- CONTENIDO PRINCIPAL -->
+      <div>
+        <!-- HERO -->
+        <section id="inicio" class="card hero" aria-labelledby="bienvenidos-title">
+          <div class="hero-text">
+            <h2 id="bienvenidos-title">Bienvenidos a Comunidad Vida y Esperanza</h2>
+            <p>Somos una comunidad cristiana abierta a todos. Aquí encontrarás prédicas, recursos y apoyo en oración.</p>
+            <p class="note">Horario de reuniones: Domingos 10:00 AM / Estudio bíblico: Miércoles 7:00 PM</p>
+          </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="card" aria-labelledby="sobre-title" style="margin-top:14px">
+          <h3 id="sobre-title">Sobre nosotros</h3>
+          <p class="note">Nuestra misión es compartir el amor de Cristo a través de la palabra, el servicio y la comunión.</p>
+          <p>Somos una iglesia local que valora la oración, el estudio bíblico y el acompañamiento. Ven como eres — hay un lugar para ti.</p>
+        </section>
+
+        <!-- VERSÍCULO / CREENCIAS -->
+        <section id="creencias" class="card" style="margin-top:14px">
+          <h3>Creencias / Versículo</h3>
+          <div class="versiculo" role="region" aria-label="Versículo del día">
+            <strong>Juan 14:27 (RVR1960)</strong><br>
+            "La paz os dejo, mi paz os doy; yo no os la doy como el mundo la da. No se turbe vuestro corazón, ni tenga miedo."
+          </div>
+          <p style="margin-top:12px">Creemos en la Biblia como la palabra inspirada de Dios y en la importancia de vivir el amor y la justicia en la comunidad.</p>
+        </section>
+
+        <!-- SERMONES -->
+        <section id="sermones" class="card" style="margin-top:14px">
+          <h3>Sermones recientes</h3>
+          <div class="sermones-list">
+            <!-- Ejemplo - puedes sustituir por enlaces reales -->
+            <article class="sermon">
+              <div>
+                <strong>La paz que sobrepasa todo entendimiento</strong>
+                <div class="meta">Dom. 24 ago 2025 • 20 min</div>
+                <!-- Si tienes archivos mp3 locales, puedes usar <audio controls src="sermon1.mp3"></audio> -->
+              </div>
+            </article>
+
+            <article class="sermon">
+              <div>
+                <strong>Perdón y reconciliación</strong>
+                <div class="meta">Dom. 17 ago 2025 • 22 min</div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- RECURSOS / ENLACES -->
+        <section id="recursos" class="card" style="margin-top:14px">
+          <h3>Recursos</h3>
+          <ul>
+            <li><a href="devocional.pdf" target="_blank" rel="noopener">Devocional diario (PDF)</a></li>
+            <li><a href="plan_90dias.pdf" target="_blank" rel="noopener">Plan de lectura bíblica 90 días</a></li>
+            <li><a href="ministerios.pdf" target="_blank" rel="noopener">Ministerios: Jóvenes, Niños, Comunidad</a></li>
+            <li><a href="Padrenuestro.pdf" target="_blank" rel="noopener">Padrenuestro</a></li>
+            <li><a href="Dios-te-salve.pdf" target="_blank" rel="noopener">Dios te salve Maria</a></li>
+          </ul>
+        </section>
+
+        <!-- PETICIONES -->
+        <section id="pedir-oracion" class="card" style="margin-top:14px">
+            <h3>Contacto / Peticiones de oración</h3>
+            <p class="note">Si deseas compartir una petición de oración o comunicarte con nosotros, puedes hacerlo a través de:</p>
+  
+            <ul style="list-style: none; padding: 0; margin: 0">
+                <li>📧 <strong>Email:</strong> comunidadvidaesperanza@gmail.com</li>
+                <li>📱 <strong>WhatsApp:</strong> +57 322 744 5167</li>
+                <li>📍 <strong>Ubicación:</strong> Carrera 30 #78-56, Barrio El Tintal, Kennedy, Bogotá D.C., Colombia</li>
+            </ul>
+        </section>
+      </div>
+
+      <!-- SIDEBAR -->
+      <aside>
+        <div class="card widget">
+          <h3>Conéctate</h3>
+          <p class="note">Síguenos en redes, o ven a nuestras reuniones</p>
+          <div class="socials" style="margin-top:8px">
+            <a href="#" aria-label="Facebook">Facebook</a>
+            <a href="#" aria-label="Instagram">Instagram</a>
+            <a href="https://www.youtube.com/" aria-label="YouTube">YouTube</a>
+          </div>
+        </div>
+
+        <div class="card widget">
+          <h3>Reproductor (ejemplo)</h3>
+          <p class="note">Reproduce un sermón breve (archivo local o URL).</p>
+          <!-- Si tienes un archivo de audio, pon src="ruta/sermon.mp3" -->
+          <audio controls style="width:100%" src="ejemplo_audioreligioso.mp3"></audio>
+        </div>
+
+        <div class="card widget">
+          <h3>Horario</h3>
+          <p><strong>Domingos:</strong> 10:00 AM</p>
+          <p><strong>Miércoles:</strong> 7:00 PM (Estudio bíblico)</p>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="card" style="margin-top:18px;padding:12px">
+        <p style="margin:0">© 2025 Comunidad Vida y Esperanza •</p>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>

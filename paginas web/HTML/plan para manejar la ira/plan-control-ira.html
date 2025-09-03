@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Plan Personal para Controlar mi Ira</title>
+    <link rel="icon" href="luna.png" type="image/png">
+    <style>
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #1d6fa5;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: white;
+            background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e") no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            margin: 50px auto;
+            padding: 30px;
+            max-width: 900px;
+            border-radius: 15px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .step {
+            margin-bottom: 25px;
+            padding: 15px;
+            border-left: 5px solid #FFD700;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+        .step h2 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #FFD700;
+        }
+        .step p {
+            font-size: 1.1em;
+            margin-top: 8px;
+        }
+
+        /* ---- Círculo de respiración ---- */
+        .breathing-container {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .circle {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 10px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.7);
+            animation: breathing 6s ease-in-out infinite;
+        }
+
+        @keyframes breathing {
+            0%   { transform: scale(1); }
+            50%  { transform: scale(1.5); }
+            100% { transform: scale(1); }
+        }
+
+        .instructions {
+            font-size: 1.1em;
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌟 Mi Plan Personal para Controlar la Ira 🌟</h1>
+
+        <div class="step">
+            <h2>1️⃣ Reconocer mi ira</h2>
+            <p>👀 El primer paso es darme cuenta de que estoy sintiendo ira. Esto implica aceptar que la emoción existe y observar mis señales físicas, como tensión en el cuerpo, aceleración del corazón o cambios en mi respiración.</p>
+        </div>
+
+        <div class="step">
+            <h2>2️⃣ Respirar (técnica 4-7-8)</h2>
+            <p>🌬️ Respiro profundamente: inhalo 4 segundos, mantengo 7 segundos y exhalo en 8 segundos. Lo repito 3 o 4 veces para relajar mi mente y cuerpo.</p>
+            
+            <!-- Círculo animado -->
+            <div class="breathing-container">
+                <div class="circle"></div>
+                <p class="instructions">Inhala... Sostén... Exhala...</p>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>3️⃣ Contar hasta 10</h2>
+            <p>🔢 Antes de reaccionar, cuento mentalmente hasta 10. Esto me da un espacio para calmar mi impulso y evitar actuar de manera agresiva.</p>
+        </div>
+
+        <div class="step">
+            <h2>4️⃣ Pensar lo que voy a decir</h2>
+            <p>💭 Reflexiono sobre mis palabras. Uso frases como “Yo siento…” en lugar de “Tú hiciste…”, para expresar cómo me siento sin atacar al otro.</p>
+        </div>
+
+        <div class="step">
+            <h2>5️⃣ Comunicación con calma</h2>
+            <p>🗣️ Hablo despacio, con un tono tranquilo y respetuoso, para que la otra persona pueda escucharme sin sentirse atacada.</p>
+        </div>
+
+        <div class="step">
+            <h2>6️⃣ Tomar una pausa</h2>
+            <p>🚶‍♂️ Si siento que no puedo controlar mi ira, me retiro por un momento. Puedo ir a otra habitación, dar un paseo o hacer algo que me relaje.</p>
+        </div>
+
+        <div class="step">
+            <h2>7️⃣ Reflexionar después</h2>
+            <p>📝 Después de la conversación, pienso en cómo me sentí y qué aprendí de la experiencia. Esto me ayuda a mejorar mi control en el futuro.</p>
+        </div>
+
+        <div class="step">
+            <h2>8️⃣ Ejemplo tutorial</h2>
+            <p>📝 Aquí puedes ver 5 ejemplo tutoriales simulados de personas aplicando estos pasos en situaciones similares a la tuya.</p>
+            <a href="ejemplo_tutoriales.html" class="btn">Ver ejemplos</a>
+        </div>
+    </div>
+</body>
+</html>

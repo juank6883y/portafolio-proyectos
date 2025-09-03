@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Navidad en familia🎄</title>
+
+  <!-- Favicon: cambia 'cruz.png' por tu icono navideño si quieres -->
+  <link rel="icon" href="navidad.png" type="image/png">
+
+  <style>
+    :root{
+      --maxw: 1100px;
+      --accent: #b91c1c; /* rojo navideño */
+      --accent2: #0b7a3a; /* verde navideño */
+      --card: rgba(255,255,255,0.95);
+      --muted: #334155;
+      --radius: 12px;
+      --shadow: 0 8px 30px rgba(2,6,23,.18);
+      --bg-url: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600&q=80&auto=format&fit=crop');
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Helvetica Neue";
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:
+      linear-gradient(rgba(2,6,23,.4), rgba(2,6,23,.4)),
+      var(--bg-url) center/cover fixed no-repeat;color:#071132}
+    a{color:var(--accent)}
+    .wrap{max-width:var(--maxw);margin:36px auto;padding:18px}
+    header{display:flex;align-items:center;gap:18px;background:var(--card);border-radius:var(--radius);padding:14px;box-shadow:var(--shadow)}
+    .logo{
+      width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,#fff,#ffeaea);
+      display:grid;place-items:center;font-weight:800;color:var(--accent2);font-size:24px;
+    }
+    header h1{margin:0;font-size:18px}
+    header p{margin:0;color:var(--muted);font-size:13px}
+    nav{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+    nav a{padding:8px 12px;border-radius:999px;background:transparent;border:1px solid rgba(0,0,0,0.06);font-weight:600;color:var(--muted);text-decoration:none}
+    nav a:hover{background:rgba(255,255,255,.9);color:var(--accent)}
+
+    main{display:grid;grid-template-columns:1fr 360px;gap:18px;margin-top:18px}
+    @media (max-width:980px){ main{grid-template-columns:1fr} nav{order:2} }
+
+    .hero{
+      background:linear-gradient(180deg, rgba(255,255,255,.92), rgba(255,255,255,.88));
+      padding:20px;border-radius:12px;box-shadow:var(--shadow)
+    }
+    .hero h2{margin:0;font-size:28px;color:var(--accent)}
+    .hero p{color:var(--muted);margin-top:8px}
+
+    .countdown{
+      display:flex;gap:10px;margin-top:14px;flex-wrap:wrap;
+    }
+    .countdown .box{
+      background: #fff;border-radius:10px;padding:12px 14px;text-align:center;min-width:72px;
+      box-shadow:0 6px 18px rgba(9,30,66,.06)
+    }
+    .countdown .num{font-size:20px;font-weight:800;color:var(--accent2)}
+    .countdown .label{font-size:12px;color:var(--muted)}
+
+    section.card{background:var(--card);border-radius:12px;padding:16px;box-shadow:var(--shadow);margin-bottom:14px}
+    section.card h3{margin:0 0 8px;color:var(--accent)}
+    .events{display:grid;gap:10px}
+    .event{padding:10px;border-radius:10px;background:rgba(11,107,58,.04)}
+    .event time{font-weight:700;color:var(--muted)}
+
+    /* gallery */
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin-top:10px}
+    .galimg{width:100%;height:100px;object-fit:cover;border-radius:8px;display:block}
+
+    /* carols / audio */
+    .audio-row{display:flex;flex-direction:column;gap:8px}
+    audio{width:100%}
+
+    /* snow effect (pure CSS) */
+    .snow {pointer-events:none;position:fixed;left:0;right:0;top:0;bottom:0;z-index:10;}
+    .snow i{position:absolute;top:-10px;width:8px;height:8px;background:rgba(255,255,255,0.9);border-radius:50%;box-shadow:0 0 8px rgba(255,255,255,.2);animation:fall linear infinite;}
+    /* generate multiple snow elements using nth-child in JS or inlined HTML - sizes and durations vary in JS generation */
+
+    footer{margin-top:24px;text-align:center;color:#0b3b2c;font-size:13px}
+
+    /* Mejorar legibilidad del texto en la tarjeta "Únete" */
+    aside .widget .muted {
+      background: #ffffff;      /* fondo blanco */
+      color: #0f1724;           /* texto oscuro */
+      padding: 10px;
+      border-radius: 8px;
+      display: inline-block;    /* que no ocupe toda la caja si el texto es corto */
+    }
+
+    footer {
+      background: #ffffff;   /* fondo blanco */
+      padding: 16px;
+      border-radius: 12px;   /* opcional, para que tenga esquinas redondeadas */
+    }
+
+
+    /* small utilities */
+    .muted{color:var(--muted)}
+    .btn{display:inline-block;background:var(--accent);color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none}
+    .center{text-align:center}
+
+    /* accessibility: respect reduced-motion */
+    @media (prefers-reduced-motion: reduce){
+      .snow i{animation:none}
+    }
+  </style>
+</head>
+<body>
+  <!-- Snow container -->
+  <div class="snow" id="snow"></div>
+
+  <div class="wrap" role="main">
+    <!-- Header -->
+    <header>
+      <div class="logo" aria-hidden="true">🎄</div>
+      <div>
+        <h1>Navidad en Familia</h1>
+        <p>Una época de amor, unión y esperanza ✨</p>
+      </div>
+
+      <nav aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#programa">Programa</a>
+        <a href="#villancicos">Villancicos</a>
+        <a href="#galeria">Galería</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Left column -->
+      <div>
+        <!-- Hero -->
+        <section id="inicio" class="hero card" aria-labelledby="titulo-hero">
+          <h2 id="titulo-hero">¡Feliz Navidad! 🎄</h2>
+          <p>Te invitamos a celebrar con nosotros una temporada de esperanza y encuentro. Ven con tu familia y amigos a compartir la palabra, la música y la comunión.</p>
+
+          <!-- Versículo -->
+          <div style="margin-top:12px;padding:12px;border-radius:10px;background:linear-gradient(90deg, rgba(11,107,58,.06), rgba(185,28,28,.03))">
+            <strong>Lucas 2:10–11</strong>
+            <p class="muted" style="margin:6px 0 0">"No temas; porque he aquí os doy nuevas de gran gozo, que será para todo el pueblo: que os ha nacido hoy, en la ciudad de David, un Salvador, que es CRISTO el Señor."</p>
+          </div>
+
+          <!-- Countdown -->
+          <div class="countdown" aria-live="polite" id="countdown">
+            <div class="box"><div class="num" id="d-days">--</div><div class="label">DÍAS</div></div>
+            <div class="box"><div class="num" id="d-hours">--</div><div class="label">HORAS</div></div>
+            <div class="box"><div class="num" id="d-mins">--</div><div class="label">MINUTOS</div></div>
+            <div class="box"><div class="num" id="d-secs">--</div><div class="label">SEGUNDOS</div></div>
+          </div>
+
+        </section>
+
+        <!-- Program -->
+        <section id="programa" class="card" aria-labelledby="prog-title">
+          <h3 id="prog-title">Programa navideño</h3>
+          <div class="events">
+            <div class="event">
+              <time>24 de diciembre — 7:00 PM</time>
+              <p class="muted">Servicio de Nochebuena con villancicos y mensaje especial.</p>
+            </div>
+            <div class="event">
+              <time>25 de diciembre — 10:00 AM</time>
+              <p class="muted">Celebración de Navidad: alabanza, lectura del nacimiento y comunión.</p>
+            </div>
+            <div class="event">
+              <time>26 de diciembre — 4:00 PM</time>
+              <p class="muted">Actividad comunitaria: compartir alimentos y regalos.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Villancicos / audio -->
+        <section id="villancicos" class="card" aria-labelledby="vill-title">
+          <h3 id="vill-title">Villancicos y cantos</h3>
+          <p class="muted">Escucha un villancico de ejemplo o añade tus archivos locales (mp3) en el src.</p>
+
+          <div class="audio-row">
+            <!-- Ejemplo con archivo local: cambia src="audios/villancico.mp3" -->
+            <audio controls src="christmas.mp3"></audio>
+            <small class="muted">Si quieres, sube un archivo `audios/villancico1.mp3` y coloca la ruta en el atributo src.</small>
+          </div>
+        </section>
+
+        <!-- Messages / prayer -->
+        <section class="card" aria-labelledby="pray-title">
+          <h3 id="pray-title">Oración de Navidad</h3>
+          <p class="muted">Señor, gracias por el don de la vida y por enviarnos a Tu Hijo. Renueva en nosotros la esperanza, la paz y el amor. Amén.</p>
+        </section>
+      </div>
+
+      <!-- Right column (sidebar) -->
+      <aside>
+        <div class="card widget center">
+          <h3>Únete</h3>
+          <p class="muted">Trae a tu familia — hay actividades para niños, jóvenes y adultos.</p>
+          <a class="btn" href="#programa">Ver programación</a>
+        </div>
+
+        <div class="card widget" aria-labelledby="gal-title">
+          <h3 id="gal-title">Galería</h3>
+          <div class="gallery" id="gallery">
+            <!-- Imágenes de ejemplo (online). Cambia URLs por tus imágenes -->
+            <img class="galimg" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&q=60&auto=format&fit=crop" alt="Decoración navideña">
+            <img class="galimg" src="https://images.unsplash.com/photo-1634587021541-468d055a8370?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG5vY2hlJTIwZGUlMjBwYXp8ZW58MHx8MHx8fDA%3D" alt="Noche de paz">
+            <img class="galimg" src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=600&q=60&auto=format&fit=crop" alt="Biblia y luz">
+            <img class="galimg" src="https://plus.unsplash.com/premium_photo-1700554043857-10bd1f7d2f7a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2VsZWJyYW5kbyUyMGxhJTIwbmF2aWRhZHxlbnwwfHwwfHx8MA%3D%3D" alt="Familia celebrando Navidad">
+          </div>
+        </div>
+
+        <div class="card widget">
+          <h3>Contacto</h3>
+          <p class="muted">📧 celebracionnavidad14@gmail.com</p>
+          <p class="muted">📱 +57 328 749 6682</p>
+          <p class="muted">📍 Avenida 22 #98-15, Fontibón, Bogotá D.C.</p>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="card" style="padding:12px;margin-top:18px;text-align:center">
+        <p style="margin:0">© 2025 Celebración Navidad 🎄 • ¡Feliz Navidad! 🎁</p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // ====== Cuenta regresiva hasta 25 de diciembre de 2025 (zona hora Bogotá) ======
+    (function(){
+      // Fecha objetivo: 25 Dec 2025 00:00:00 (midnight start of Christmas day)
+      // We'll treat it as local time of the user's browser (works fine).
+      const target = new Date('2025-12-25T00:00:00');
+      const daysEl = document.getElementById('d-days');
+      const hoursEl = document.getElementById('d-hours');
+      const minsEl = document.getElementById('d-mins');
+      const secsEl = document.getElementById('d-secs');
+
+      function update(){
+        const now = new Date();
+        let diff = target - now;
+        if(diff < 0) diff = 0;
+        const secs = Math.floor(diff/1000) % 60;
+        const mins = Math.floor(diff/1000/60) % 60;
+        const hours = Math.floor(diff/1000/3600) % 24;
+        const days = Math.floor(diff/1000/3600/24);
+        daysEl.textContent = days;
+        hoursEl.textContent = String(hours).padStart(2,'0');
+        minsEl.textContent = String(mins).padStart(2,'0');
+        secsEl.textContent = String(secs).padStart(2,'0');
+      }
+      update();
+      setInterval(update,1000);
+    })();
+
+    // ====== Generar copos de nieve dinámicamente ======
+    (function(){
+      const snow = document.getElementById('snow');
+      const count = 35;
+      for(let i=0;i<count;i++){
+        const el = document.createElement('i');
+        // randomize left, size, delay, duration, opacity
+        const left = Math.random()*100;
+        const size = 4 + Math.random()*10; // px
+        const delay = Math.random()*-20; // seconds
+        const duration = 6 + Math.random()*18; // seconds
+        const opacity = 0.6 + Math.random()*0.4;
+        el.style.left = left + 'vw';
+        el.style.width = size+'px';
+        el.style.height = size+'px';
+        el.style.opacity = opacity;
+        el.style.top = (Math.random()*-20) + 'vh';
+        el.style.animationDuration = duration + 's';
+        el.style.animationDelay = delay + 's';
+        el.style.borderRadius = '50%';
+        el.style.position = 'absolute';
+        el.style.background = 'rgba(255,255,255,0.9)';
+        el.style.boxShadow = '0 0 8px rgba(255,255,255,.2)';
+        el.style.animationName = 'fall-'+i;
+        // create simple keyframes per element using stylesheet injection for varied motion
+        const style = document.createElement('style');
+        const xMove = (Math.random()*40 - 20); // horizontal drift
+        style.innerHTML = `
+          @keyframes fall-${i} {
+            0% { transform: translateY(-10vh) translateX(0); }
+            100% { transform: translateY(110vh) translateX(${xMove}vw); }
+          }`;
+        document.head.appendChild(style);
+        snow.appendChild(el);
+      }
+    })();
+  </script>
+</body>
+</html>
