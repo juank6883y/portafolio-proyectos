@@ -30,7 +30,7 @@ try {
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
     $mail->Username   = 'taskpro.help7008@gmail.com';
-    $mail->Password   = 'ivqf uojz yvmi vnyn';
+    $mail->Password   = #;
     $mail->SMTPSecure = 'tls';
     $mail->Port       = 587;
 
