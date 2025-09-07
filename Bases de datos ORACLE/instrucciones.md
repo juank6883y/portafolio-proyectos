@@ -15,7 +15,7 @@ Este proyecto contiene un archivo SQL para crear y poblar la tabla **ESTUDIANTES
 - Acceso a **SQL*Plus** u otro cliente Oracle.
 - Usuario con permisos de creación de objetos (en este caso el esquema **JUAN**).
 
----
+`````
 
 ## 🚀 Pasos para ejecutar
 
