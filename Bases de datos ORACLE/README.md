@@ -33,7 +33,7 @@ Este repositorio contiene una guía práctica para comenzar a trabajar con bases
 
 3. Construye la imagen de Docker:
 
-```bash
+   ```bash
 ./buildContainerImage.sh -v 21.3.0 -e
 ---
 
