@@ -16,7 +16,7 @@ Este proyecto contiene un archivo SQL para crear y poblar la tabla **ESTUDIANTES
 ## 🚀 Pasos para ejecutar
 
 1. **Conectarse a Oracle dentro del contenedor**
-   ```bash
+   ```bash    
 docker exec -it oracle-db sqlplus sys/TuPassword123@ORCLCDB as sysdba
 
 2. **Cambiar al usuario correcto (si aplica)**
