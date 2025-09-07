@@ -67,7 +67,7 @@ docker exec -it oracle-db sqlplus sys/TuPassword123@ORCLCDB as sysdba
      puesto VARCHAR2(50),
      PRIMARY KEY (id)
    );
----
+`````
 #📌 Insertar datos
 INSERT INTO empleados (nombre, puesto) VALUES ('Ana', 'Analista');
 INSERT INTO empleados (nombre, puesto) VALUES ('Luis', 'Desarrollador');
