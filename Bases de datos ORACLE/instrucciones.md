@@ -1,6 +1,3 @@
-
----
-
 ## 📄 INSTRUCCIONES.md
 
 ```markdown
