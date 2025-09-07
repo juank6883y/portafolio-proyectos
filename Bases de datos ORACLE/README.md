@@ -55,8 +55,8 @@ Este repositorio contiene una guía práctica para comenzar a trabajar con bases
 
 # 🧪 Empezar a trabajar con Oracle
 # 🔗 Conectarte a SQL*Plus dentro del contenedor:
-   ```bash
-   docker exec -it oracle-db sqlplus sys/TuPassword123@ORCLCDB as sysdba
+```bash
+docker exec -it oracle-db sqlplus sys/TuPassword123@ORCLCDB as sysdba
 ---
 # 🗃️ Comandos útiles en SQL
 # 📌 Crear una tabla
