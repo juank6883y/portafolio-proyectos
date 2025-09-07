@@ -1,6 +1,5 @@
 ## 📄 INSTRUCCIONES.md
 
-```markdown
 # 📘 Instrucciones para ejecutar el script SQL
 
 Este proyecto contiene un archivo SQL para crear y poblar la tabla **ESTUDIANTES** en Oracle Database.
