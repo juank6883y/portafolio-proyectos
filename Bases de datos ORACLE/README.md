@@ -67,27 +67,27 @@ docker exec -it oracle-db sqlplus sys/TuPassword123@ORCLCDB as sysdba
      puesto VARCHAR2(50),
      PRIMARY KEY (id)
    );
-`````
-#📌 Insertar datos
+`````   
+# 📌 Insertar datos
 INSERT INTO empleados (nombre, puesto) VALUES ('Ana', 'Analista');
 INSERT INTO empleados (nombre, puesto) VALUES ('Luis', 'Desarrollador');
 
-#📌 Ver cuántas tablas has creado (usuario actual)
+# 📌 Ver cuántas tablas has creado (usuario actual)
 SELECT table_name FROM user_tables;
 
-#📌 Ver contenido de una tabla
+# 📌 Ver contenido de una tabla
 SELECT * FROM empleados;
 
-#🚪 Salir de SQL*Plus
+# 🚪 Salir de SQL*Plus
 EXIT;
 
-#🧼 Extra: Detener o eliminar el contenedor
+# 🧼 Extra: Detener o eliminar el contenedor
 # Detener:
 docker stop oracle-db
 
 # Eliminar:
 docker rm -f oracle-db
 
-#✍️ Juan - TaskPro
+# ✍️ Juan - TaskPro
 
 Este repositorio fue creado para ayudar a quienes necesiten trabajar con bases de datos Oracle de forma local o mediante contenedores.
