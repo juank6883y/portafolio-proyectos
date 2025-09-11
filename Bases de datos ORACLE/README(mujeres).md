@@ -59,7 +59,7 @@ La tabla se inicializa con 10 registros de prueba:
 
   ```bash
 SELECT * FROM SYSTEM.MUJERES;
----
+`````
 📂 Archivos Incluidos
 
 mujeres.sql → Script con la creación de la tabla e inserción de datos.
