@@ -57,7 +57,7 @@ La tabla se inicializa con 10 registros de prueba:
 2. Ejecutar el script `.sql` que contiene la definición y los inserts.
 3. Consultar los registros con:
 
-```sql
+  ```bash
 SELECT * FROM SYSTEM.MUJERES;
 ---
 📂 Archivos Incluidos
