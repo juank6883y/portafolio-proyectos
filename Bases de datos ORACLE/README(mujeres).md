@@ -59,3 +59,13 @@ La tabla se inicializa con 10 registros de prueba:
 
 ```sql
 SELECT * FROM SYSTEM.MUJERES;
+---
+📂 Archivos Incluidos
+
+mujeres.sql → Script con la creación de la tabla e inserción de datos.
+
+README.md → Documentación del proyecto.
+
+📜 Licencia
+
+Este proyecto es de uso libre para fines académicos y de práctica.
