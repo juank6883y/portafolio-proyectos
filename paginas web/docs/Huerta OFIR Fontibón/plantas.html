@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Nuestras Plantas - Huerta Ofir</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+        <h1>Nuestras Plantas</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="plantas.html" class="activo">Nuestras Plantas</a></li>
+        </ul>
+    </nav>
+
+    <section id="plantas">
+        <h2>Plantas disponibles en la huerta</h2>
+
+        <!-- Catálogo cargado por JS -->
+        <div class="catalogo" id="catalogo"></div>
+
+        <!-- Paginación -->
+        <div class="paginacion">
+            <a href="plantas.html" class="activo">1</a>
+            <a href="plantas2.html">2</a>
+        </div>
+    </section>
+
+    <!-- Botón de regreso -->
+    <div class="volver">
+        <a href="index.html" class="btn-volver">← Volver al inicio</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Huerta Ofir - Fontibón</p>
+    </footer>
+
+    <!-- Script que maneja TODO -->
+    <script src="paginacion.js"></script>
+
+    <!-- Modal para ver imagen en grande -->
+    <div id="modal" class="modal">
+        <span id="cerrar" class="cerrar">&times;</span>
+        <button id="anterior" class="nav-btn">&#10094;</button>
+        <img id="modal-img" class="modal-content">
+        <button id="siguiente" class="nav-btn">&#10095;</button>
+        <div id="caption"></div>
+    </div>
+
+</body>
+</html>
